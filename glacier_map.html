@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_6d3076d09c64de26984ff3a3650973c4 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_6d3076d09c64de26984ff3a3650973c4" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_6d3076d09c64de26984ff3a3650973c4 = L.map(
+                "map_6d3076d09c64de26984ff3a3650973c4",
+                {
+                    center: [36.71664, 74.04939999999999],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_9ef14f92f1b9b8437ece4be6b3adaa00 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_9ef14f92f1b9b8437ece4be6b3adaa00.addTo(map_6d3076d09c64de26984ff3a3650973c4);
+        
+    
+            var marker_05161903d5db2d5d4035604b1546ffa3 = L.marker(
+                [36.7795, 73.8878],
+                {
+}
+            ).addTo(map_6d3076d09c64de26984ff3a3650973c4);
+        
+    
+        var popup_e2e677f33d55d88bde4194ae441b7048 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f5db981f258d3b31eecea3b107df1606 = $(`<div id="html_f5db981f258d3b31eecea3b107df1606" style="width: 100.0%; height: 100.0%;">Name: Chhateboi Glacier<br>Area: 35.674 km²<br>Status: Glacier or ice cap</div>`)[0];
+                popup_e2e677f33d55d88bde4194ae441b7048.setContent(html_f5db981f258d3b31eecea3b107df1606);
+            
+        
+
+        marker_05161903d5db2d5d4035604b1546ffa3.bindPopup(popup_e2e677f33d55d88bde4194ae441b7048)
+        ;
+
+        
+    
+    
+            var marker_844a7ead656ae7a0a4ec5d5728bfca02 = L.marker(
+                [36.7614, 74.0589],
+                {
+}
+            ).addTo(map_6d3076d09c64de26984ff3a3650973c4);
+        
+    
+        var popup_5f95dedfb7f8d421fb5421607f3aa40e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6619798bdf583297d705c1030901ef19 = $(`<div id="html_6619798bdf583297d705c1030901ef19" style="width: 100.0%; height: 100.0%;">Name: Chllinji Glacier<br>Area: 13.127 km²<br>Status: Glacier or ice cap</div>`)[0];
+                popup_5f95dedfb7f8d421fb5421607f3aa40e.setContent(html_6619798bdf583297d705c1030901ef19);
+            
+        
+
+        marker_844a7ead656ae7a0a4ec5d5728bfca02.bindPopup(popup_5f95dedfb7f8d421fb5421607f3aa40e)
+        ;
+
+        
+    
+    
+            var marker_6e1ea0db97a6aeac8ef03fedc0120d9c = L.marker(
+                [36.7371, 74.132],
+                {
+}
+            ).addTo(map_6d3076d09c64de26984ff3a3650973c4);
+        
+    
+        var popup_ef45082709ac627415757dd7829a41c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_146b8d9f90c68b0091811c74b39f58b4 = $(`<div id="html_146b8d9f90c68b0091811c74b39f58b4" style="width: 100.0%; height: 100.0%;">Name: Koz Yaz Glacier<br>Area: 44.658 km²<br>Status: Glacier or ice cap</div>`)[0];
+                popup_ef45082709ac627415757dd7829a41c1.setContent(html_146b8d9f90c68b0091811c74b39f58b4);
+            
+        
+
+        marker_6e1ea0db97a6aeac8ef03fedc0120d9c.bindPopup(popup_ef45082709ac627415757dd7829a41c1)
+        ;
+
+        
+    
+    
+            var marker_bef847d4f3e4509e4816689983c3fae8 = L.marker(
+                [36.6893, 73.9445],
+                {
+}
+            ).addTo(map_6d3076d09c64de26984ff3a3650973c4);
+        
+    
+        var popup_5a5bf46938a2cdcd42f422f446b89b60 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7d4894b11b223b1ae7f8ad9a4d21e55d = $(`<div id="html_7d4894b11b223b1ae7f8ad9a4d21e55d" style="width: 100.0%; height: 100.0%;">Name: Pekhin Glacier<br>Area: 11.211 km²<br>Status: Glacier or ice cap</div>`)[0];
+                popup_5a5bf46938a2cdcd42f422f446b89b60.setContent(html_7d4894b11b223b1ae7f8ad9a4d21e55d);
+            
+        
+
+        marker_bef847d4f3e4509e4816689983c3fae8.bindPopup(popup_5a5bf46938a2cdcd42f422f446b89b60)
+        ;
+
+        
+    
+    
+            var marker_e5057f6148f652fe7170d1991aaa3357 = L.marker(
+                [36.6159, 74.2238],
+                {
+}
+            ).addTo(map_6d3076d09c64de26984ff3a3650973c4);
+        
+    
+        var popup_9a1e3825385889db9344da87b6809f9a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_947cbeb62f19f4d89d58bb3b27f36601 = $(`<div id="html_947cbeb62f19f4d89d58bb3b27f36601" style="width: 100.0%; height: 100.0%;">Name: Karambar Glacier<br>Area: 81.704 km²<br>Status: Glacier or ice cap</div>`)[0];
+                popup_9a1e3825385889db9344da87b6809f9a.setContent(html_947cbeb62f19f4d89d58bb3b27f36601);
+            
+        
+
+        marker_e5057f6148f652fe7170d1991aaa3357.bindPopup(popup_9a1e3825385889db9344da87b6809f9a)
+        ;
+
+        
+    
+</script>
+</html>
